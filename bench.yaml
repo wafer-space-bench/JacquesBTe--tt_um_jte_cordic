@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/JacquesBTe/tt_um_jte_cordic
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_jte_cordic
+  project: CORDIC sin/cos generator
+  size: 1x1
+  kind: digital (Verilog)
+  commit: b11ccb372ffd5fd0e268d8b2b05cb3d5b2759a18
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_jte_cordic
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_jte_cordic
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:53:01Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_jte_cordic
+- upstream/main
